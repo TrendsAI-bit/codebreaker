@@ -1,0 +1,7 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#1f2937"/>
+  <rect x="50" y="50" width="700" height="350" fill="#374151" stroke="#6b7280" stroke-width="2" rx="8"/>
+  <text x="400" y="200" text-anchor="middle" fill="#9ca3af" font-family="system-ui, sans-serif" font-size="24" font-weight="600">Puzzle V</text>
+  <text x="400" y="240" text-anchor="middle" fill="#6b7280" font-family="system-ui, sans-serif" font-size="16">Placeholder Image</text>
+  <text x="400" y="280" text-anchor="middle" fill="#4b5563" font-family="system-ui, sans-serif" font-size="14">Upload your image here</text>
+</svg>
