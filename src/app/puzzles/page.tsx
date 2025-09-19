@@ -226,14 +226,16 @@ export default function PuzzlesPage() {
                   <div className="mt-6">
                     <h4 className="text-sm font-medium text-gray-300 mb-3">Unlocked Fragments</h4>
                     <div className="space-y-2">
-                      {unlockedFragments.map((fragment, index) => (
-                        <div key={index} className="flex items-center space-x-2">
+                      {puzzles
+                        .filter(puzzle => completedPuzzles.includes(puzzle.id))
+                        .map((puzzle, index) => (
+                        <div key={puzzle.id} className="flex items-center space-x-2">
                           <div className="w-6 h-6 bg-green-600 rounded-full flex items-center justify-center">
                             <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                             </svg>
                           </div>
-                          <span className="text-white font-mono">{fragment}</span>
+                          <span className="text-white font-mono">{puzzle.fragment}</span>
                         </div>
                       ))}
                     </div>
