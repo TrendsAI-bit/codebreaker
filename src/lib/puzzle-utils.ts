@@ -45,7 +45,7 @@ export const puzzles: Puzzle[] = [
     id: 5,
     title: "Puzzle V: Hex Whisper",
     description: "In the digital realm, numbers speak in whispers. Decode the hidden message to reveal the final word.",
-    image: "/art/puzzle-5.svg",
+    image: "/art/puzzle-5.jpg",
     answerHash: "4c314c6a042e74c217edfe717891bc2033ddfbf11e00be7340bdabe9e6b7e887",
     fragment: "FD8psZ3bM2ijSzkXuX"
   }
