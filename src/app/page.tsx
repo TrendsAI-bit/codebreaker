@@ -15,9 +15,9 @@ export default function Home() {
                 <span className="block text-blue-400">Quest</span>
               </h1>
               <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-                Embark on a journey through five enigmatic puzzles. Each solved mystery 
-                reveals a fragment of the final key. Will you have what it takes to 
-                unlock the ultimate secret?
+                Crack the code to unlock a $10,000 Solana wallet! Embark on a journey 
+                through five enigmatic puzzles. Each solved mystery reveals a fragment 
+                of the final key. Will you have what it takes to unlock the ultimate prize?
               </p>
               
               {/* Rules */}
@@ -49,12 +49,6 @@ export default function Home() {
                   className="btn-primary text-center text-lg px-8 py-3"
                 >
                   Start Quest
-                </Link>
-                <Link 
-                  href="/about"
-                  className="btn-secondary text-center text-lg px-8 py-3"
-                >
-                  Learn More
                 </Link>
               </div>
             </div>
@@ -121,11 +115,11 @@ export default function Home() {
             <div className="card p-6 text-center">
               <div className="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
                 </svg>
               </div>
-              <h3 className="text-lg font-semibold text-white mb-2">Ultimate Reward</h3>
-              <p className="text-gray-400">Unlock the final key by combining all fragments from your journey.</p>
+              <h3 className="text-lg font-semibold text-white mb-2">$10,000 Prize</h3>
+              <p className="text-gray-400">Unlock the final key to access the $10,000 Solana wallet.</p>
             </div>
           </div>
         </div>
