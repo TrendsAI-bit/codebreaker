@@ -17,15 +17,9 @@ A professional puzzle-solving website where solving five puzzles reveals five te
 - **Styling**: Tailwind CSS
 - **Deployment**: Vercel-ready static export
 
-## Puzzle Answers
+## Puzzle Information
 
-The puzzles are designed to be solvable with the provided clues:
-
-1. **Puzzle I**: TORII (ancient gateway structure)
-2. **Puzzle II**: LIGHT (illuminates wisdom)
-3. **Puzzle III**: 3UZ (carved characters)
-4. **Puzzle IV**: PUZZLE (garden of pieces)
-5. **Puzzle V**: 5KJ89M2N (sum of all fragments)
+The puzzles are designed to be solvable with the provided clues. Each puzzle reveals a fragment that contributes to the final key.
 
 ## Security Notes
 
